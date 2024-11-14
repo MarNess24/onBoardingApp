@@ -19,10 +19,10 @@ fun ButtonFinish ( currentPage: Int, navController: NavController, store: StoreB
            .fillMaxWidth()
            .padding(bottom = 20.dp),
         horizontalArrangement =
-            if ( currentPage != 2 ) Arrangement.SpaceBetween
+            if ( currentPage != 3 ) Arrangement.SpaceBetween
             else Arrangement.Center
     ) {
-        if ( currentPage == 2 ) {
+        if ( currentPage == 3 ) {
             OutlinedButton ( onClick = {
                 navController.navigate("home") {
                     popUpTo(0)

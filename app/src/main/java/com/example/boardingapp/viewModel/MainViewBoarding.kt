@@ -36,6 +36,14 @@ fun MainViewBoarding( navController: NavController, store: StoreBoarding ) {
         )
     )
 
+    items.add (
+        PageData (
+            R.raw.page4,
+            "Página agregada",
+            "Agregamos esta página como ejercicio jeje"
+        )
+    )
+
     items.add(
         PageData(
             R.raw.page3,
