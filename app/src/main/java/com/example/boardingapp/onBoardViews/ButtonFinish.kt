@@ -31,7 +31,7 @@ fun ButtonFinish ( currentPage: Int, navController: NavController, store: StoreB
                 Text ( text = "Entrar",
                        modifier = Modifier
                            .padding ( horizontal = 40.dp, vertical = 8.dp ) )
-            }//
+            }
         }
     }
 }
